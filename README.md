@@ -1,0 +1,3 @@
+MeWZ
+---------
+Kida like news
