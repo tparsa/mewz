@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'mewz.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mewz',
+        'HOST': 'localhost',
+        'PASSWORD': 'docker',
+        'USER': 'postgres',
+        'PORT': '5432',
     }
 }
 
